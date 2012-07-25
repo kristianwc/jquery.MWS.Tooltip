@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>You Still Can't Create a jQuery Plugin?</title>
+	</head>
+	<body>
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript" src="jQuery.MWS.tooltip.js"></script>
+
+		<script type="text/javascript">
+		$(document).ready(function() {
+			$('a').tooltip({rounded: true});
+			
+		});
+			
+			
+		</script>
+		<style type="text/css">
+			#MWSTooltip { position: absolute; border: 2px solid #000; padding: 2px; z-index: 100; background-color: #fff; }  
+			#MWSTooltipText { background-color: #000; color: #fff;padding: 2px 5px; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;}
+			.MWSrounded { -moz-border-radius: 7px; -webkit-border-radius: 7px; border-radius: 7px; } 
+		</style>
+			
+
+		<div id="container">
+			<p>
+				The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable <a href="#" title="This is my title">English</a>.
+				Many desktop publishing packages and web
+				page <a href="#" title="<strong>title</strong><br />sdfsdf sdfni">editors</a> now use Lorem Ipsum as their default model text, and a search for lorem ipsu will uncover many web sites still in their infancy.
+				<a href="#">Various</a> versions have evolved
+				<a href="#" title="The other day, I bla bla with WordPress.">over the years</a>, sometimes by accident, sometimes on purpose (injected humour and the like).
+			</p>
+		</div><!--end container-->
+	</body>
+</html>
